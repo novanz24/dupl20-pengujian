@@ -1,0 +1,19 @@
+{
+  "name": "dupl20-pengujian",
+  "version": "1.0.0",
+  "description": "Kode pengujian unit testing DUPL-20 - Admin Ubah Status Laporan ke In Progress",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 10000
+  }
+}
